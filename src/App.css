@@ -1,0 +1,39 @@
+.cart button {
+  margin: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #fff;
+  padding: 23px 50px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border: 0px;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.cart .green {
+  background-color: rgb(6, 172, 0);
+}
+
+.cart .red {
+  background-color: rgb(221, 52, 66);
+}
+
+.cart .red:disabled {
+  background-color: rgb(193, 191, 191);
+  cursor: not-allowed;
+}
+
+.cart {
+  text-align: center;
+}
+
+.parent-cart {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
